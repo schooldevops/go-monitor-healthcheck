@@ -47,3 +47,9 @@ docker build -t monitoring:v1.0 .
 ```
 docker run -e DB_HOST="http://192.168.0.14:8086" -e INTERVAL=10s  monitor:scale.1 --name scalemonitor
 ```
+
+### with volume
+
+```
+docker run -e DB_HOST="http://192.168.0.14:8086" -e INTERVAL=10s  -v data/target2.json:/bin/data/targets.json monitor:scale.1 --name scalemonitor
+```
