@@ -1,0 +1,26 @@
+[
+    {
+        "target": "DAUM",
+        "url": "http://www.daum.net"
+    },
+    {
+        "target": "NAVER",
+        "url": "http://www.naver.net"
+    },
+    {
+        "target": "MARATHON_LB",
+        "url": "http://223.62.245.136:13301"
+    },
+    {
+        "target": "SCALE_PORTAL",
+        "url": "http://223.62.245.136:13301"
+    },
+    {
+        "target": "IAAS",
+        "url": "http://223.62.245.136:13101"
+    },
+    {
+        "target": "PAAS",
+        "url": "http://223.62.245.136:13201"
+    }
+]
