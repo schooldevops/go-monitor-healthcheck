@@ -8,19 +8,11 @@
         "url": "http://www.naver.net"
     },
     {
-        "target": "MARATHON_LB",
-        "url": "http://223.62.245.136:13301"
+        "target": "kubernetes",
+        "url": "http://127.0.0.5:13301"
     },
     {
-        "target": "SCALE_PORTAL",
-        "url": "http://223.62.245.136:13301"
-    },
-    {
-        "target": "IAAS",
-        "url": "http://223.62.245.136:13101"
-    },
-    {
-        "target": "PAAS",
-        "url": "http://223.62.245.136:13201"
+        "target": "web",
+        "url": "http://myweb.com:13301"
     }
 ]

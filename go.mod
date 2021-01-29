@@ -1,4 +1,4 @@
-module com.skt.scale/monitor
+module schooldevops/monitor
 
 go 1.15
 
